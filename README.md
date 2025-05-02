@@ -2,7 +2,7 @@
 # Overview
 * This repository holds an attempt to use decision tree classifiers and method to the features of mushrooms given in a dataset, in the Mushroom Classification Kaggle Dataset: https://www.kaggle.com/datasets/uciml/mushroom-classification/data
 * The approach in this repository formula was to take the idea of classification and use it on varous species of mushrooms to see predict mushroom's 'edibility'.
-* Summary: the decision tree classifier method predicted the edible state with 1.0 (100%) accuracy within the model, given that it was a fairly clean dataset!
+* Summary: The decision tree classifier method predicted the edible state with 1.0 (100%) accuracy within the model, given that it was a dataset with minimal missing values. The factors 
 ## DATA
 * Data type: categorical; tabular data (CSV file)
 * Size: 8124 rows, 23 columns/features
@@ -15,7 +15,7 @@
 * I decided to go ahead and use a code that would be able to showcase all the graphs with their respective categories and features, and the letters that correspond to the variables. There is a distinct measure of multiple types of features and frequencies of each characteristic of the mushrooms and how to use it for training dataset.
 * ![frequency](color.png)
 # Problem
-* The input were: mushroom characteristics and features
+* The inputs were: mushroom characteristics and features
 * Output was: prediction of being edible as a mushroom
 * Model: Basic decision tree classification since it made value simpler to understand and code with through cleaned up data.
 * Trained with normal parameters, no hyper tuning parameters used.
