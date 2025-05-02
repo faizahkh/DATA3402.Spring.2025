@@ -1,4 +1,4 @@
-## Mushroom Classification for Machine Learning
+## Mushroom Classification using decision tree classifier
 # Overview
 * This repository holds an attempt to use decision tree classifiers and method to the features of mushrooms given in a dataset, in the Mushroom Classification Kaggle Dataset: https://www.kaggle.com/datasets/uciml/mushroom-classification/data
 * The approach in this repository formula was to take the idea of classification and use it on varous species of mushrooms to see predict mushroom's 'edibility'.
