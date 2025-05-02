@@ -4,7 +4,7 @@
 * The approach in this repository formula was to take the idea of classification and use it on varous species of mushrooms to see predict mushroom's 'edibility'.
 * Summary: the decision tree classifier method predicted the edible state with 1.0 (100%) accuracy within the model, given that it was a fairly clean dataset!
 ## DATA
-* Data type: categorical
+* Data type: categorical; tabular data (CSV file)
 * Size: 8124 rows, 23 columns/features
 * Instances (Training: 4863, Validation: 1621, Testing: 1622)
 # Cleaning up data/pre-processing
@@ -23,7 +23,7 @@
 * Got an accuracy of 1.00 which was attainable given simpler data and less processing. The model should predict edible mushrooms 100% of time using the model and accuracy results.
 * ![accuracy](precision.png)
 # Reproducing Results:
-* Seperate features and do one-hot encoding of categorical variables, create a new clean dataset.
+* Seperate features and perform one-hot encoding of categorical variables, create a new clean dataset.
 * Use the decision tree classifications.
 * Convert unknown variables in stalk-root feature.
 * Use 'sklearn' and get rid of columns that might affect the fitting; pre-process and visualize all the categories beforehand.
