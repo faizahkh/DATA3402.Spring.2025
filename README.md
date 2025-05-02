@@ -7,10 +7,11 @@
 * Size: 8124 rows, 23 columns/features
 * Instances (Training: 4863, Validation: 1621, Testing: 1622)
 # Cleaning up data/pre-processing
-* Honestly, the data was fairly clean with very minimal missing values. In this case, we had the feature called "stalk-root", which had a '?' in place of a characteristic in it so we were able to change those unknown values to create and replace with class value/mode (written in code, inspired by Kaggle)
+* Honestly, the data was fairly clean with very minimal missing values. In this case, we had the feature called "stalk-root", which had a '?' in place of a characteristic in it so we were able to change those unknown values to create and replace with class value/mode (written in code)
 * Additional features, such as gill-attach and veil-type were removed because they had very little significance to the overall dataset and would cause a shift in training the model.
 # Data Visualization!
 * I decided to go ahead and use a code that would be able to showcase all the graphs with their respective categories and features, and the letters that correspond to the variables. There is a distinct measure of multiple types of features and frequencies of each characteristic of the mushrooms and how to use it for training dataset.
+* ![stalk picture](stalk.png)
 # Problem
 * The input were: mushroom characteristics and features
 * Output was: prediction of being edible as a mushroom
