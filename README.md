@@ -11,7 +11,7 @@
 * The data was fairly clean with very minimal missing values. In this case, I had the feature called "stalk-root", which had a '?' in place of a characteristic in it so I were able to change those unknown values to create and replace with class value/mode (written in code)
 * ![stalk picture](stalk.png)
 * Additional features, such as gill-attach and veil-type were removed because they had very little significance to the overall dataset and would cause a shift in training the model.
-# Data Visualization!
+# Data Visualization
 * I decided to go ahead and use a code that would be able to showcase all the graphs with their respective categories and features, and the letters that correspond to the variables. There is a distinct measure of multiple types of features and frequencies of each characteristic of the mushrooms and how to use it for training dataset.
 * ![frequency](color.png)
 # Problem
