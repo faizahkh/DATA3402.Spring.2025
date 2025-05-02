@@ -12,20 +12,22 @@
 * Additional features, such as gill-attach and veil-type were removed because they had very little significance to the overall dataset and would cause a shift in training the model.
 # Data Visualization!
 * I decided to go ahead and use a code that would be able to showcase all the graphs with their respective categories and features, and the letters that correspond to the variables. There is a distinct measure of multiple types of features and frequencies of each characteristic of the mushrooms and how to use it for training dataset.
+* ![frequency](color.png)
 # Problem
 * The input were: mushroom characteristics and features
 * Output was: prediction of being edible as a mushroom
-* Model: Basic decision tree classification because it could deal with the values simpler
+* Model: Basic decision tree classification since it made value simpler to understand and code with through cleaned up data.
 * Trained with normal parameters, no hyper tuning parameters used.
 # Conclusions:
-* got an accuracy of 1.00 which was not too surprising considering I had heard that the dataset was clean and beginner friendly! was able to predict edible mushrooms 100% of time.
+* Got an accuracy of 1.00 which was attainable given simpler data and less processing. The model should predict edible mushrooms 100% of time using the model and accuracy results.
+* ![accuracy](precision.png)
 # Reproducing Results:
-* Seperate features and do one-hot encoding of categorical variables, create a new clean dataset
-* Use the decision tree classifications
-* Convert unknown variables in stalk-root feature
-* Use sci-kit and get rid of certain columns that might affect the fitting; pre-process and visualize all the categories beforehand
+* Seperate features and do one-hot encoding of categorical variables, create a new clean dataset.
+* Use the decision tree classifications.
+* Convert unknown variables in stalk-root feature.
+* Use 'sklearn' and get rid of certain columns that might affect the fitting; pre-process and visualize all the categories beforehand.
 # Repository files:
-* Read Me File
+* README file
 * MushroomKaggleChallenge.ipynb file
 # Software:
 * pandas as pd
